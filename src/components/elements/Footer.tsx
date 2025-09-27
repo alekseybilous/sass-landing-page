@@ -1,5 +1,5 @@
 import { Container } from "../shared/Container.tsx";
-import logo from "../../assets/icon.svg";
+import logo from "/public/assets/icon.svg";
 import { navItems } from "./Navbar.tsx";
 import { NavItem } from "../shared/NavItem.tsx";
 
