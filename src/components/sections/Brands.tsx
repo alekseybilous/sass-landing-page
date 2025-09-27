@@ -1,14 +1,7 @@
 import { Container } from "../shared/Container.tsx";
 import { Title } from "../shared/Title.tsx";
 
-const logos = [
-  "discord",
-  "openai",
-  "paypal",
-  "slack",
-  "spotify",
-  "youtube",
-];
+const logos = ["discord", "openai", "paypal", "slack", "spotify", "youtube"];
 
 export const Brands = () => {
   return (

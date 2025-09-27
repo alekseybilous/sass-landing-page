@@ -51,7 +51,11 @@ export const Hero = () => {
                   </svg>
                 </span>
 
-                <input type="email" placeholder="alekseybilous@gmail.com" className="w-full py-3 outline-none bg-transparent"  />
+                <input
+                  type="email"
+                  placeholder="alekseybilous@gmail.com"
+                  className="w-full py-3 outline-none bg-transparent"
+                />
 
                 <Button className="min-w-max text-white">
                   <span className="relative z-[5]">Get Started</span>
@@ -70,7 +74,6 @@ export const Hero = () => {
             className="lg:absolute lg:w-full lg:h-full rounded-3xl object-cover lg:max-h-non max-h-96"
           />
         </div>
-
       </Container>
 
       <Numbers />
